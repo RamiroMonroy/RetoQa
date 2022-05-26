@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="Probar las funcionalidades de la pagina opencart.com" skipped="0" tests="7" time="154.57" timestamp="2022-05-26 05:01:31"><testcase name="Validar acceso solo para usuarios registrados"/><testcase name="Filtrar ordenes por su numero de orden"/><testcase name="Filtrar reportes por fecha en cualquier formato"><error message="Expected condition failed: waiting for By.xpath: //td[contains(text(),'13/05/2018')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEP5JC9RF3', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: //td[contains(text(),'13/05/2018')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEP5JC9RF3', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //td[contains(text(),'13/05/2018')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEP5JC9RF3', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown&#13;
+co.com.choucair.retoQA.stepdefinitions.MyDefinitions.elUsuarioPuedeVerElReporteDeUnaFechaEnElRangoSeleccionado(MyDefinitions.java:76)&#13;
+✽.el usuario puede ver el reporte de una fecha en el rango seleccionado 13/05/2018(src/test/resources/features/reto.feature:46)&#13;
+</system-err></testcase></testsuite>
